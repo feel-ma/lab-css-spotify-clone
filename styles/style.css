@@ -6,3 +6,142 @@ Green: #00B172
 White: #FFF
 
 */
+h1{
+    font-size: 60px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#logo{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 100px;
+}
+
+#links{
+    display: flex;
+    justify-content: center;
+align-items:center;
+}
+
+.link{
+    text-decoration: none;
+    padding: 10px;
+}
+
+#img{
+    background-image: url(../images/landing.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.what{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#center{
+    margin-top: 50px;
+    display: flex;
+
+}
+
+h2{
+    margin: auto;
+    border-bottom: 5px solid green;
+    font-size: 30px;
+}
+
+h4{
+    font-size: 25px;
+    color: green;
+    font-weight: bold;
+
+    margin-block-start: 0.33em;
+    margin-block-end: 0.33em;
+}
+
+.mxw5{
+    max-width: 50%;
+    text-align: center;
+}
+
+p{
+
+    margin-block-start: 0.3em;
+    margin-block-end: 0.3em;
+}
+
+.center{
+margin: auto;
+}
+
+.img{
+    height: 50px;
+    width: 50px;
+}
+
+.iconbox{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-bk{
+    background-color: green;
+    background-image: url(../images/spotify-icon-white.png);
+    background-size: 150px 150px;
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 1200px;
+    color: white;
+ 
+}
+
+.dp{
+margin: 5%;
+}
+
+h5{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.mxw{
+    max-width: 50%;
+    font-size: 20px;
+}
+
+
+  #bbb{
+    border-bottom: 2px solid white;
+  }
